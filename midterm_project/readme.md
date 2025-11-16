@@ -2,6 +2,27 @@
 
 ---
 
+Here’s a clear and concise **problem statement** you can use for your heart disease prediction project — perfect for your `README.md`, GitHub repo, or project report:
+
+---
+
+### 🫀 Problem Statement: Heart Disease Prediction API
+
+Cardiovascular diseases are the leading cause of death globally, accounting for millions of lives lost each year. Early detection and risk assessment are critical to improving patient outcomes and reducing healthcare burdens. However, many individuals at risk remain undiagnosed due to limited access to diagnostic tools or lack of awareness.
+
+This project aims to develop a **machine learning-based API** that predicts the likelihood of heart disease based on patient health metrics. By leveraging historical clinical data and a trained classification model, the API provides a fast, accessible, and scalable solution for preliminary heart disease risk screening.
+
+---
+
+### 🎯 Objectives
+
+- Build a predictive model using features such as age, cholesterol, blood pressure, and more.
+- Deploy the model as a RESTful API using Flask and Waitress.
+- Enable external testing via HTTP requests using the `requests` library.
+- Package the project with a `requirements.txt` for easy reproducibility.
+
+---
+
 ## 🫀 Heart Disease Prediction with Logistic Regression
 
 This project is part of the **Machine Learning Zoomcamp** and focuses on building a logistic regression model to predict the likelihood of heart disease based on patient health metrics. It includes data preprocessing, model training, and prediction using a saved model.
