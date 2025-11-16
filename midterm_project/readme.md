@@ -219,3 +219,29 @@ print(response)
 ```
 
 ---
+
+
+Here’s a solid section you can include in your `README.md` or project documentation to outline **known limitations** and **next steps** for your heart disease prediction API:
+
+---
+
+## ⚠️ Known Limitations
+
+- **Limited dataset scope**: The model is trained on a specific dataset that may not generalize well to diverse populations or real-world clinical settings.
+- **Binary classification only**: The current model predicts only the presence or absence of heart disease, without indicating severity or type.
+- **No real-time data integration**: The API does not connect to live health monitoring devices or electronic health records.
+- **No authentication or security layer**: The API is publicly accessible and lacks user authentication or data encryption.
+- **No frontend interface**: Users must interact with the API via command-line or external tools like Postman or Python scripts.
+
+---
+
+## 🚀 Next Steps
+
+- **Expand dataset**: Incorporate more diverse and larger datasets to improve model robustness and fairness.
+- **Model tuning and evaluation**: Explore hyperparameter optimization, cross-validation, and ensemble methods for better accuracy.
+- **Add input validation**: Implement stricter checks to handle missing or malformed input data.
+- **Integrate authentication**: Add token-based access control to secure the API.
+- **Build a user-friendly frontend**: Create a simple web interface for non-technical users to interact with the model.
+- **Deploy to cloud**: Host the API on platforms like Render, Railway, or AWS for public access and scalability.
+
+---
