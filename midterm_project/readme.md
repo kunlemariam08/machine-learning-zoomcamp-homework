@@ -2,6 +2,27 @@
 
 ---
 
+Here’s a clear and concise **problem statement** you can use for your heart disease prediction project — perfect for your `README.md`, GitHub repo, or project report:
+
+---
+
+### 🫀 Problem Statement: Heart Disease Prediction API
+
+Cardiovascular diseases are the leading cause of death globally, accounting for millions of lives lost each year. Early detection and risk assessment are critical to improving patient outcomes and reducing healthcare burdens. However, many individuals at risk remain undiagnosed due to limited access to diagnostic tools or lack of awareness.
+
+This project aims to develop a **machine learning-based API** that predicts the likelihood of heart disease based on patient health metrics. By leveraging historical clinical data and a trained classification model, the API provides a fast, accessible, and scalable solution for preliminary heart disease risk screening.
+
+---
+
+### 🎯 Objectives
+
+- Build a predictive model using features such as age, cholesterol, blood pressure, and more.
+- Deploy the model as a RESTful API using Flask and Waitress.
+- Enable external testing via HTTP requests using the `requests` library.
+- Package the project with a `requirements.txt` for easy reproducibility.
+
+---
+
 ## 🫀 Heart Disease Prediction with Logistic Regression
 
 This project is part of the **Machine Learning Zoomcamp** and focuses on building a logistic regression model to predict the likelihood of heart disease based on patient health metrics. It includes data preprocessing, model training, and prediction using a saved model.
@@ -196,5 +217,31 @@ patient = {
 response = requests.post(url, json=patient).json()
 print(response)
 ```
+
+---
+
+
+Here’s a solid section you can include in your `README.md` or project documentation to outline **known limitations** and **next steps** for your heart disease prediction API:
+
+---
+
+## ⚠️ Known Limitations
+
+- **Limited dataset scope**: The model is trained on a specific dataset that may not generalize well to diverse populations or real-world clinical settings.
+- **Binary classification only**: The current model predicts only the presence or absence of heart disease, without indicating severity or type.
+- **No real-time data integration**: The API does not connect to live health monitoring devices or electronic health records.
+- **No authentication or security layer**: The API is publicly accessible and lacks user authentication or data encryption.
+- **No frontend interface**: Users must interact with the API via command-line or external tools like Postman or Python scripts.
+
+---
+
+## 🚀 Next Steps
+
+- **Expand dataset**: Incorporate more diverse and larger datasets to improve model robustness and fairness.
+- **Model tuning and evaluation**: Explore hyperparameter optimization, cross-validation, and ensemble methods for better accuracy.
+- **Add input validation**: Implement stricter checks to handle missing or malformed input data.
+- **Integrate authentication**: Add token-based access control to secure the API.
+- **Build a user-friendly frontend**: Create a simple web interface for non-technical users to interact with the model.
+- **Deploy to cloud**: Host the API on platforms like Render, Railway, or AWS for public access and scalability.
 
 ---
